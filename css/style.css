@@ -7,7 +7,7 @@ body {
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #4a4a4a;
+  color: #000000;
 }
 
 h1, h2, h3, h4 {
@@ -30,4 +30,37 @@ h3 {
 h4 {
   font-size: 1.35em;
   font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+a {
+  color: #000000;
+  text-decoration: none; /* No underlining */
+}
+a:hover {
+  color: #6C6A6A;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:visited { /* visited link */
+  color: #000000;
+}
+a:active { /* selected link */
+  color: #86438f;
+}
+a:hover,
+a:focus {
+  color: #6c6a6a;
+  text-decoration: underline;
+}
+.button {
+  background-color: transparent;
+  color: #86438f;
+  text-transform: uppercase;
+  border: 2px solid #86438f;
+}
+.button:hover {
+  background-color: #ff7f50;
+  color: #ffffff;
 }
