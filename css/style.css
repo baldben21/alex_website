@@ -64,3 +64,77 @@ a:focus {
   background-color: #ff7f50;
   color: #ffffff;
 }
+.container {
+  padding: 0 15px;
+}
+header {
+  background-color: #FFCD02;
+   text-align: center;
+  padding: 10px 0;
+  margin: 10px;
+	border-bottom: 3px solid #4a4a4a;
+	position: relative;
+}
+
+.slider{
+padding: 0 10px;
+  margin: 10px;
+	border-bottom: 3px solid #4a4a4a
+}
+.grid{
+padding: 0 10px;
+  margin: 10px;
+	border-bottom: 3px solid #4a4a4a
+}
+.commission{
+padding: 0 10px;
+  margin: 10px;
+	border-bottom: 3px solid #4a4a4a
+}
+
+.contact{
+padding: 0 10px;
+  margin: 10px;
+	border-bottom: 3px solid #4a4a4a
+}
+.social{
+padding: 0 10px;
+  margin: 10px;
+	border-bottom: 3px solid #4a4a4a
+}
+.copyright{
+padding: 0 10px;
+  margin: 10px;
+}
+.email{
+padding: 0 10px;
+  margin: 10px;
+}
+.logo{
+	max-width: 250px;
+	box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+}
+nav > ol {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ol > li {
+  display: inline-block;
+}
+nav > ol > li > a {
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+#hero {
+  background-color: #FFCD02;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+.blue{
+padding: 0 10px;
+  margin: 10px;
+	border-bottom: 3px solid #4a4a4a
+}
