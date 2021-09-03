@@ -1,5 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
+*{
+	box-sizing: border-box;
+}
 body {background: #FFCD02}
 body {
   background-color: #FFCD02;
@@ -8,6 +11,7 @@ body {
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #000000;
+box-sizing: border-box;
 }
 
 h1, h2, h3, h4 {
@@ -59,10 +63,13 @@ a:focus {
   color: #86438f;
   text-transform: uppercase;
   border: 2px solid #86438f;
+	padding: 10px 20px;
+	display: inline-block;
 }
 .button:hover {
   background-color: #ff7f50;
   color: #ffffff;
+	text-decoration: none;
 }
 .container {
   padding: 0 15px;
@@ -79,28 +86,29 @@ header {
 .slider{
 padding: 0 10px;
   margin: 10px;
-	border-bottom: 3px solid #4a4a4a
+	border-bottom: 3px solid #4a4a4a;
+		
 }
 .grid{
 padding: 0 10px;
   margin: 10px;
-	border-bottom: 3px solid #4a4a4a
+	border-bottom: 3px solid #4a4a4a;
 }
 .commission{
 padding: 0 10px;
   margin: 10px;
-	border-bottom: 3px solid #4a4a4a
+	border-bottom: 3px solid #4a4a4a;
 }
 
 .contact{
 padding: 0 10px;
   margin: 10px;
-	border-bottom: 3px solid #4a4a4a
+	border-bottom: 3px solid #4a4a4a;
 }
 .social{
 padding: 0 10px;
   margin: 10px;
-	border-bottom: 3px solid #4a4a4a
+	border-bottom: 3px solid #4a4a4a;
 }
 .copyright{
 padding: 0 10px;
@@ -136,8 +144,11 @@ nav > ol > li > a {
 .blue{
 padding: 0 10px;
   margin: 10px;
-	border-bottom: 3px solid #4a4a4a
+	border-bottom: 3px solid #4a4a4a;
 }
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
+
+
+
