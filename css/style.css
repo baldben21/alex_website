@@ -195,6 +195,20 @@ height: auto;
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+.left {
+  width: calc(60% - (.5em + 6px));
+  float: left;
+  min-height: 400px;
+  margin-top: 1em;
+}
+.right {
+  width: calc(40% - (.5em + 6px));
+  float: right;
+  min-height: 400px;
+  margin-top: 1em;
+}
+
+
 @keyframes movement {
   from {transform: translate(0,50px);}
   to {transform: translate(200px,50px);}
@@ -224,7 +238,11 @@ Medium devices (640px and larger)
 }
 	[class*="col-"] {
   float: left;
+  padding: 15px;
 }
+	.row{
+		margin: 0 -10px;
+	}
 	.row::after {
   content: "";
   clear: both;
