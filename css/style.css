@@ -13,7 +13,9 @@ body {
   color: #000000;
 box-sizing: border-box;
 }
-
+logo{
+	max-width: 150px;
+}
 h1, h2, h3, h4 p {
   line-height: 1.4;
 }
@@ -247,6 +249,9 @@ Medium devices (640px and larger)
   content: "";
   clear: both;
   display: table;
+}
+		logo{
+	max-width: 500px;
 }
 }
 
