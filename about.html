@@ -1,15 +1,15 @@
 <!doctype html>
 <html lang="en">
 
-<head>
+<head id="top">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fe53348822.js" crossorigin="anonymous"></script>
   <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Alex Hernandez Portfolio</title>
-	<link href="/images/logos_and_icons/favicon.png" rel="shortcut icon">
+  <link href="/images/logos and icons/favicon.png" rel="shortcut icon">
 </head>
 
 <body>
@@ -17,16 +17,18 @@
     <header id="nav">
 		<div class="container">
       <h1>Hey! My name is Alex. </h1>
-      <div class="logo"><img src="images/logos_and_icons/Alex_logo.png" alt=""></div>
-
+      <div class="navtoggle" id="myNavtoggle">
+      <div class="logo"><img src="images/logos_and_icons/Alex_logo.png" alt=""></div>	
       <nav>
         <ol>
-			<li><a href="index.html">home</a></li>
-        <li><a href="about.html">About me</a></li>
-        <li><a href="">Commission</a></li>
-        <li><a href="projects.html">My Artwork</a></li>
-		  </ol>
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="">Commission</a></li>
+          <li><a href="projects.html">My Artwork</a></li>
+			<li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+        </ol>
       </nav>
+		</div>
 		</div>
     </header>
 	<main>
@@ -177,6 +179,7 @@
     </div>
 	  </div>
   </footer>
+	<script src="js/jquery.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
 
