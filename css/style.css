@@ -18,6 +18,7 @@ body {
   color: #000;
   box-sizing: border-box;
 }
+
 logo {
   max-width: 150px;
 }
@@ -48,7 +49,7 @@ h4 {
 
 p {
   font-size: 1.15em;
-  font-weight: 400em
+  font-weight: 400em;
 }
 
 img {
@@ -177,7 +178,7 @@ header {
   float: left;
 }
 
-nav>ol {
+nav > ol {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -187,7 +188,7 @@ nav>ol {
   display: none;
 }
 
-.navtoggle .navtoggle.responsive {
+.navtoggle, .navtoggle.responsive {
   position: relative;
 }
 
@@ -293,7 +294,7 @@ svg {
 }
 
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 /* Slideshow container */
@@ -309,7 +310,7 @@ svg {
 }
 
 /* Next & previous buttons */
-.prev .next {
+.prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -397,8 +398,7 @@ svg {
   width: 100%;
   height: 100%;
   overflow: hidden;
-}
-/* object-fit allows the element to re-size itself. object-position sets the elemnt to focus on the center of the image instead of the default top left*/
+}/* object-fit allows the element to re-size itself. object-position sets the elemnt to focus on the center of the image instead of the default top left*/
 .gallery-item .images img {
   width: 100%;
   height: 100%;
@@ -492,7 +492,7 @@ svg {
   top: 0;
   width: 100%;
   height: 100%;
-	background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, .8);
   display: none;
 }
 
@@ -516,31 +516,31 @@ svg {
   }
 
   50% {
-    top: 35%
+    top: 35%;
   }
 
   100% {
-    top: 50%
+    top: 50%;
   }
 }
 
 @-webkit-keyframes fade {
   from {
-    opacity: .4
+    opacity: .4;
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
 @keyframes fade {
   from {
-    opacity: .4
+    opacity: .4;
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -616,7 +616,7 @@ Medium devices (640px and larger)
     max-width: 500px;
   }
 
-  .prev .next .text {
+  .prev, .next, .text {
     font-size: 11px;
   }
 
@@ -624,7 +624,7 @@ Medium devices (640px and larger)
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .w-3 .w-4 .w-5 .w-6 {
+  .w-3, .w-4, .w-5, .w-6 {
     grid-column: span 1;
   }
 }
@@ -650,10 +650,11 @@ Large devices (1024px or larger)
 
   p {
     font-size: 1.25em;
-    font-weight: 400em
+    font-weight: 400em;
   }
 }
 
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
+@media only screen and (min-width: 1440px) {}
