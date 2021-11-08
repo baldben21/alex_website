@@ -14,8 +14,8 @@
 
 <body>
 
-    <header id="nav">
-		<div class="container">
+    <header>
+      <div class="container">
       <h1>Hey! My name is Alex. </h1>
       <div class="navtoggle" id="myNavtoggle">
       <div class="logo"><img src="images/logos_and_icons/Alex_logo.png" alt=""></div>
@@ -32,22 +32,125 @@
 		</div>
     </header>
 	<main>
-    <div class="blue">
-		 <div class="container">
-      <div id="hero">
-		  <h4>My name is Alex Hernandez. I am an aspiring digital artist striving to make a mark with my passion for art. My mediums are digital art on Procreate and Clipnote Studio. I am a twenty-two-year-old college student eager to share my art. I started drawing when I was nine years old, being inspired by video games and anime is where the love to create came from. Games like Pokemon, Kingdom Hearts, and Fire Emblem made me imagine my vision of character creation. I started making my characters, small comics that were heavily inspired by these games and animes I loved. My work is still influenced by these things in the style I have developed over the years. I hope to grow as an artist and continue to develop my style so people will recognize my name and work. I want to inspire young people to use art as a positive outlet to create and feed their imagination.</h4>
-		  </div>
-        <h2>My artwork</h2>
-        <div class="row">
-        <div class="col-md-6 col-lg-7">
-          <a href="artwork.html"><picture>
-            <source srcset="images/logos_and_icons/alex_blue.png" media="(max-width:767px)">
-            <img src="images/logos_and_icons/alex_blue.png" alt="My Image">
-          </picture></a>
-			</div>
+		<div class="container">
+	<div id="hero">
+          <h4>My passion for creating art doesn't stop at digital. When I have free time, I like paint and draw too.</h4>
+        </div>
+
+      <!-- image slide 2/3 images rotating -->
+      <div class="grid">
+       <h2>My Artwork</h2>
+        <div>
+			  <div class="containerr">
+
+    <div class="gallery-container w-4 h-2">
+      <div class="gallery-item">
+        <div class="images"><img src="images/desktop/Artwork_2_desktop.jpg" alt="My Image">
+        </div>
+        <div class="title">Photo1</div>
+      </div>
+    </div>
+
+    <div class="gallery-container w-3">
+      <div class="gallery-item">
+        <div class="images"><img src="images/desktop/Artwork_3_desktop.jpg" alt="My Image">
+        </div>
+        <div class="title">Photo2</div>
+      </div>
+    </div>
+
+    <div class="gallery-container">
+      <div class="gallery-item">
+        <div class="images"><img src="images/desktop/Artwork_4_desktop.jpg" alt="My Image">
+        </div>
+        <div class="title">Photo3</div>
+      </div>
+    </div>
+
+    <div class="gallery-container w-2">
+      <div class="gallery-item">
+        <div class="images"><img src="images/desktop/Artwork_5_desktop.jpg" alt="My Image">
+        </div>
+        <div class="title">Photo4</div>
+      </div>
+    </div>
+
+    <div class="gallery-container h-2 w-3">
+      <div class="gallery-item">
+        <div class="images"><img src="images/desktop/Artwork_6_desktop.jpg" alt="My Image">
+        </div>
+        <div class="title">Photo6</div>
+      </div>
+    </div>
+
+    <div class="gallery-container">
+      <div class="gallery-item">
+        <div class="images"><img src="images/desktop/Artwork_7_desktop.jpg" alt="My Image">
+        </div>
+        <div class="title">Photo11</div>
+      </div>
+    </div>
+
+		<div class="gallery-container">
+      <div class="gallery-item">
+        <div class="images"><img src="images/desktop/Artwork_9_desktop.jpg" alt="My Image">
+        </div>
+        <div class="title">Photo11</div>
+      </div>
+    </div>
+
+				  <div class="gallery-container">
+      <div class="gallery-item">
+        <div class="images"><img src="images/desktop/Artwork_10_desktop.jpg" alt="My Image">
+        </div>
+        <div class="title">Photo11</div>
+      </div>
+    </div>
+
+				  <div class="gallery-container">
+      <div class="gallery-item">
+        <div class="images"><img src="images/desktop/Artwork_11_desktop.jpg" alt="My Image">
+        </div>
+        <div class="title">Photo11</div>
+      </div>
+    </div>
+
+				  <div class="gallery-container">
+      <div class="gallery-item">
+        <div class="images"><img src="images/desktop/Artwork_12_desktop.jpg" alt="My Image">
+        </div>
+        <div class="title">Photo11</div>
+      </div>
+    </div>
+
+				  <div class="gallery-container">
+      <div class="gallery-item">
+        <div class="images"><img src="images/desktop/Artwork_13_desktop.jpg" alt="My Image">
+        </div>
+        <div class="title">Photo11</div>
+      </div>
+    </div>
+
+				  <div class="gallery-container">
+      <div class="gallery-item">
+        <div class="images"><img src="images/desktop/Artwork_14_desktop.jpg" alt="My Image">
+        </div>
+        <div class="title">Photo11</div>
+      </div>
+    </div>
+
+				  <div class="gallery-container w-3">
+      <div class="gallery-item">
+        <div class="images"><img src="images/desktop/painting.png" alt="My Image">
+        </div>
+        <div class="title">Photo11</div>
+      </div>
+    </div>
+
+  </div>
                 </div>
-		</div>
-		</div>
+      </div>
+    </div>
 	</main>
          <footer id="footer">
 	  <div class="container">
@@ -60,6 +163,7 @@
       <div class="email">
         <a href="mailto:alex.meow925@gmail.com" class="button">Email me</a>
       </div>
+
       <div class="social">
         <p>I am active on social media and I post and share art that inspire me.</p>
         <!--Social Media Layout and Placeholders-->
