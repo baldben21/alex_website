@@ -19,6 +19,10 @@ body {
   box-sizing: border-box;
 }
 
+footer {
+	background-color: #E5E5E5;
+}
+
 logo {
   max-width: 150px;
 }
@@ -84,8 +88,8 @@ a:focus {
 
 .button {
   display: inline-block;
-  background-color: #ff7f50;
-  color: #2B0303;
+  background-color: #86438F;
+  color: #fff;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
@@ -172,8 +176,7 @@ header {
 }
 
 .logo {
-  max-width: 200px;
-  box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+  max-width: 200px;;
   display: inline-block;
   float: left;
 }
